@@ -58,4 +58,10 @@ public class ScoreVO {
 		this.floatAvg = floatAvg;
 	}
 
+	@Override
+	public String toString() {
+		return "ScoreVO [strNum=" + strNum + ", intKor=" + intKor + ", intEng=" + intEng + ", intMath=" + intMath
+				+ ", intSum=" + intSum + ", floatAvg=" + floatAvg + "]";
+	}
+
 }
